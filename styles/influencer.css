@@ -267,6 +267,23 @@ nav ul a {
 }
 
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0A0826;
+    color: #FFF;
+    height: 239px;
+    margin-top: 100px;
+}
+
+.footer-img a{
+    margin-left: 0px;
+}
+.footer-img{
+    text-align: center;
+}
+
 /* Responsive media query */
 @media screen and (max-width: 576px) {
 
@@ -324,10 +341,19 @@ nav ul a {
 
 
     .btn-arrow {
-        /* margin-top: 3px; */
-        /* height: 10px;
-        width: 10px; */
         background-image: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #0A0826;
+        color: #FFF;
+        height: 239px;
+        width: 100%;
+        margin-top: 100px;
+        padding-left: 20px;
     }
 }
 
